@@ -1,0 +1,29 @@
+        body{
+            background-color: #3664c7;
+            background-color: linear-gradient(to bottom, #263191 0%, #07057c 100%);
+            font: normal 25pt Verdana;
+            color: #252525;
+        }
+        h1{
+            color: rgb(240, 240, 240);
+            
+            
+        }
+        #cont{
+            background-color: whitesmoke;
+            padding-top: 10px;
+            width: 600px;
+            height: 370px;
+            border-radius: 30px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+        }
+        footer{
+            margin-top: 20px;
+            color: white;
+            font-size: 15px;
+        }
+        img{
+            margin-top: 20px;
+            width: 270px;
+            border-radius: 20px;
+        }
