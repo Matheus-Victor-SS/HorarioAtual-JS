@@ -1,4 +1,3 @@
-var cont=document.getElementById('cont')
 function Atualizar(){
         var res=document.getElementById('res')//marcando o local para substituir
         var txt=document.getElementById('txt')
@@ -44,11 +43,4 @@ function Atualizar(){
             }
         }
         setInterval(Atualizar, 1000)//atualiza a cada 1000 milisegundos
-cont.addEventListener('mouseenter', entrar)
-cont.addEventListener('mouseout', sair)
-function entrar(){
-    
-}
-function sair(){
 
-}
