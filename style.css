@@ -9,11 +9,14 @@
             
             
         }
+        h1:hover{
+            transform: scale(0.97);
+        }
         #cont{
             background-color: whitesmoke;
             padding-top: 10px;
-            width: 600px;
-            height: 370px;
+            width: 70%;
+            height: 35%;
             border-radius: 30px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
         }
@@ -22,8 +25,16 @@
             color: white;
             font-size: 15px;
         }
+        footer:hover{
+            transform: scale(0.95);
+            color:darkgray
+        }
         img{
             margin-top: 20px;
-            width: 270px;
+            width: 65%;
             border-radius: 20px;
+        }
+        img:hover{
+            transform: scale(1.02);
+            filter: brightness(0.6)
         }

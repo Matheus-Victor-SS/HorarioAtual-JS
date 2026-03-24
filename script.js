@@ -1,9 +1,10 @@
+var cont=document.getElementById('cont')
 function Atualizar(){
         var res=document.getElementById('res')//marcando o local para substituir
         var txt=document.getElementById('txt')
         
         var data = new Date()//importando Date()
-        var hora = data.getHours
+        var hora = data.getHours()
         var minuto = data.getMinutes(),
          segundos = data.getSeconds() <=9 ? "0"+data.getSeconds(): data.getSeconds()
          res.innerHTML = `${hora}:${minuto}:${segundos}`//coloca um do lado do outro
@@ -43,3 +44,11 @@ function Atualizar(){
             }
         }
         setInterval(Atualizar, 1000)//atualiza a cada 1000 milisegundos
+cont.addEventListener('mouseenter', entrar)
+cont.addEventListener('mouseout', sair)
+function entrar(){
+    
+}
+function sair(){
+
+}
